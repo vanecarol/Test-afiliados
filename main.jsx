@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './maternidad-abundancia.jsx' 
-import '../index.css'
+import MaternidadApp from './maternidad-abundancia.jsx' 
+import './index.css' // Asegúrate de que el archivo index.css esté en la misma carpeta
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <MaternidadApp />
   </React.StrictMode>,
 )
